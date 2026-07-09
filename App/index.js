@@ -1,0 +1,1 @@
+console.log(`wish me luck bois`);
