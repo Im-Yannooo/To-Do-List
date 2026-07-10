@@ -1,5 +1,28 @@
-.body{
+body{
     display: flex;
+    background-color: #F5F5F5;
     justify-content: center;
     align-items: center;
+}
+
+#To-Do-List_Body{
+    background-color: #FFFFFF;
+    padding: 30px
+}
+
+#H1{
+    font-family: sans-serif;
+}
+
+#Main_Tab{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    background-color: #F0F0F0;
+    height: 45px;
+    border-radius: 12.5px;
+}
+
+.Task_Btn{
+    
 }
