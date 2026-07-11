@@ -7,7 +7,8 @@ body{
 
 #To-Do-List_Body{
     background-color: #FFFFFF;
-    padding: 30px
+    padding: 30px;
+    border-radius: 20px;
 }
 
 #H1{
@@ -17,12 +18,24 @@ body{
 #Main_Tab{
     display: flex;
     justify-content: center;
-    gap: 150px;
+    align-items: center;
     background-color: #F0F0F0;
-    height: 45px;
+    width: 400px;
+    height: 55px;
     border-radius: 12.5px;
 }
 
-.Task_Btn{
-    
+#Task_Bar{
+    display: flex;
+    gap: 50px;
+}
+
+#Search_Bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+    width: 392.5px;
+    height: 50px;
+    border-radius: 12.5px;
 }
