@@ -13,15 +13,30 @@ body{
 
 #H1{
     font-family: sans-serif;
+    font-size: 40px;
 }
 
-#Main_Tab{
+#Tab{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #F0F0F0;
     padding: 7.5px;
     border-radius: 12.5px;
+}
+
+#MainBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Tasks{
+    background-color: black;
+    width: 500px;
+    height: 80px;
+    border-radius: 12.5px;
+    outline: 100px red;
 }
 
 #Task_Bar{
