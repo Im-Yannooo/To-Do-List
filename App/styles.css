@@ -52,13 +52,32 @@ body{
     border: 0;
 }
 
-#Search_Bar{
+#AddingTask{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     background-color: #F0F0F0;
     width: 500px;
     height: 50px;
     border-radius: 12.5px;
     border: 0;
+}
+
+#TaskName{
+    background-color: #F0F0F0;
+    width: 500px;
+    height: 40px;
+    border-radius: 12.5px;
+    border: 0;
+    outline: 0;
+}
+
+#AddButton{
+    border: 0;
+}
+
+.addImage{
+    width: 25px;
+    height: auto;
+    margin-top: px;
 }

@@ -1,8 +1,9 @@
-console.log(`wish me luck bois`);
+const addTaskButton = document.getElementById("AddButton");
+const mainBodyDisplay = document.getElementById("MainBody");
 
-function Newtask(){
+addTaskButton.addEventListener('click', function(){
+    const textInput = document.querySelector("#TaskName");
+    console.log(textInput.value);
+});
 
-    
-
-    return;
-}
+console.log("it works");
