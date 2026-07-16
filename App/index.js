@@ -10,7 +10,9 @@ addTaskButton.addEventListener('click', function(){
     }else{
         list.textContent = textInput.value;
         mainBodyDisplay.appendChild(list);
+        textInput.value = "";
     }
+
 });
 
 console.log("it works");
