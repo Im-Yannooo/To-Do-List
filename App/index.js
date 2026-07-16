@@ -3,7 +3,14 @@ const mainBodyDisplay = document.getElementById("MainBody");
 
 addTaskButton.addEventListener('click', function(){
     const textInput = document.querySelector("#TaskName");
-    console.log(textInput.value);
+    const list = document.createElement(`li`);
+
+    if(textInput.value === ""){
+        alert("Must input a task name to add!");
+    }else{
+        list.textContent = textInput.value;
+        mainBodyDisplay.appendChild(list);
+    }
 });
 
 console.log("it works");
