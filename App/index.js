@@ -11,7 +11,8 @@ addTaskButton.addEventListener('click', function(){
         list.textContent = textInput.value;
         mainBodyDisplay.appendChild(list);
         textInput.value = "";
-    }
+        console.log("YAY");
+    }   
 
 });
 
