@@ -10,7 +10,6 @@ addTaskButton.addEventListener('click', function(){
         alert("Must input a task name to add!");
     }else{
         list.textContent = textInput.value;
-        mainBodyDisplay.appendChild(list);
         textInput.value = "";
     }   
 
@@ -18,4 +17,4 @@ addTaskButton.addEventListener('click', function(){
 
 
 
-console.log("it works");
+console.log("it works");w
