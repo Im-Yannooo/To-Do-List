@@ -1,20 +1,23 @@
+import {addTask} from './Functions/functions.js';
+
 const addTaskButton = document.getElementById("AddButton");
 const mainBodyDisplay = document.getElementById("MainBody");
-var list;
 
 addTaskButton.addEventListener('click', function(){
     const textInput = document.querySelector("#TaskName");
-    list = document.createElement(`li`);
 
     if(textInput.value === ""){
         alert("Must input a task name to add!");
-    }else{
-        list.textContent = textInput.value;
+    } else {
+
+        const newTask = addTask(textInput.value);
+
+        newTask.addEventListener('click', function(){
+            this.remove();
+        });
+
+        mainBodyDisplay.appendChild(newTask);
+
         textInput.value = "";
-    }   
-
+    }
 });
-
-
-
-console.log("it works");w
